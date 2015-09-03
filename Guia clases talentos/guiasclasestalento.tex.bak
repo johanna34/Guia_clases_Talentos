@@ -1,0 +1,119 @@
+\documentclass[11pt,evaluacion]{uescimat}
+\usepackage[ansinew]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{multicol}
+\usepackage{multienum}
+\usepackage{tikz}
+
+
+\author{Licdo. Salvador Enrique Rodríguez H.}
+\materia{Jóvenes talento}
+\anoacademico{2015}
+\fecha{12 DE AGOSTO DE 2015}
+\titulo{UNIDAD 3: ELEMENTOS DE GEOMETRÍA}
+
+\begin{document}
+\maketitle
+
+
+El significado etimológico de la palabra geometría, ?medida de la tierra?, nos indica su origen de tipo práctico,
+relacionado con las actividades de reconstrucción de los límites de las parcelas de terreno que tenían que
+hacer los egipcios, tras las inundaciones del Nilo. Pero la Geometría dejó hace ya hace mucho tiempo de
+ocuparse de la medida de la tierra. Con los griegos la geometría se interesó por el mundo de las formas,
+la identificación de sus componentes más elementales y de las relaciones y combinaciones entre dichos
+componentes. La geometría se ocupa de una clase especial de objetos que designamos con palabras como,
+punto, recta, plano, triángulo, polígono, poliedro, etc. Tales términos y expresiones designan ``figuras geométricas?,
+las cuales son consideradas como abstracciones o representaciones generales de una categoría de objetos.
+
+El `` lenguaje? geométrico tiene su origen en nuestra necesidad de describir el mundo de las formas de los
+cuerpos perceptibles que nos rodean, su tamaño y posición en el espacio.
+La Geometría estudia las formas de las figuras y los cuerpos geométricos. En la vida cotidiana encontramos
+modelos y ejemplificaciones físicas de esos objetos ideales de los que se ocupa la Geometría, El entorno
+artístico y arquitectónico ha sido un importante factor de desarrollo de la Geometría. Así desde la construcción
+de viviendas o monumentos funerarios (pirámides de Egipto), hasta templos de los más diversos estilos
+han impulsado constantemente el descubrimiento de nuevas formas y propiedades geométricas. Muchas
+profesiones, además de los matemáticos, arquitectos e ingenieros necesitan y usan la Geometría: albañiles,
+ceramistas, artesanos, decoradores, coreógrafos, diseñadores de muebles, etc. Todos ellos de una forma
+más o menos consciente, utilizan el espacio y las formas geométricas. El mundo de los deportes está repleto
+de figuras geométricas: fútbol (el rectángulo del campo, las áreas, el balón, las porterías, etc.), baloncesto
+(canastas, zonas, campo, etc.), tenis, béisbol, etc. 
+
+\section{Elementos geométricos fundamentales}
+En la geometría sintética actual(Axiomática), el punto, la recta y el plano son conceptos fundamentales o primitivos y no se definen; se enuncian simplemente estableciendo su existencia. Estas ideas básicas de la geometría nos hacen pensar 
+en objetos que vemos en el mundo físico; sin embargo, es importante anotar que estos conceptos son simples abstracciones de nuestras mentes y se aceptan sin definición así: 
+
+\textbf{El punto}.- La marca que deja la punta bien aguda de un lápiz en el papel nos da la idea del punto. Esta marca no es realmente un punto, sino simplemente su representación, pues el punto geometrico es una idea, y como tal no puede verse ni tocarse. 
+
+Un punto se representa por medio de una marquita redonda, indicandolo generalmente por una letra mayuscula. Así en la siguiente figura se tienen los puntos A, A' y $A_1$.
+\begin{figure}[h]
+\centering
+\includegraphics[scale=1]{img1}
+\end{figure} 
+
+La existencia de punto admite el siguiente postulado:
+``Existen infinitos puntos"
+
+\textbf{La recta}.- El trazo de un lápiz en el papel utilizando una regla, nos da la idea de la recta. Este trazo no es realmente una recta, sino simplemente su representación pues la recta es una idea, y como tal no puede verse ni tocarse. La representación de la recta AB se observa en la siguiente figura: 
+
+\begin{figure}
+\centering
+\includegraphics[scale=1]{img2}
+\end{figure}
+
+La existencia de la recta admite el postulado siguiente:
+
+``Existen infinitas rectas"
+
+\textbf{El plano}.- La superficie de una mesa, de la pizarra del aula, etc. nos da la idea de plano. Estas superficies no son realmente el plano; entonces:
+Estas superficies no son realmente el plano, sino simplemente representan la idea de él. Generalmente un plano se representa por un paralelogramo, tal como se muestra en la siguiente figura, y se lee el plano $\wp $
+\begin{figure}[h]
+\centering
+\includegraphics[scale=1]{img3}
+\end{figure}
+
+La existencia del plano admite el siguiente postulado:
+``Existen infinitos planos"
+\textbf{Espacio geométrico o superficie}
+Se acaba de afirmar que existen infinitos puntos, infinitas rectas e infinitos planos, pero no podemos afirmar que todos los puntos en una sola recta o en un solo plano; entonces: ¿Dónde están los puntos que no pertenecen a la recta ni al plano? ¿Dónde estan las infinitas rectas y los infinitos planos?. Es de admitir que existe un conjunto UNIVERSO en donde se encuentra todos los puntos, todas las rectas y todo los planos cualquiera sea su orientación y/o ubicación. A este conjunto se denomina Espacio Geométrico o Superficie.
+
+Para extender un poco más las ideas anteriores se plantea lo siguiente: 
+
+\textbf{Definición implícita de posición.}
+\begin{enumerate}[(a)]
+\item Una posición es indicada mediante un objeto, llamado punto.
+\item Pero una posición no es lo mismo que un punto, un punto puede ser pensado para ser movido, lo que es, cambiar su posición, mientras que no se puede hablar de posición como movimiento, pues se tiene una contradicción de términos.
+\end{enumerate}
+
+
+\textbf{Definición implícita de dirección.}
+
+\begin{enumerate}[(a)]
+\item La dirección es indicada mediante dos puntos nombrados,y se entiende como la dirección del uno al otro.
+\item Pero una posición no es lo mismo que un punto, un punto puede ser pensado para ser movido, lo que es, cambiar su posición, mientras que no se puede hablar de posición como movimiento, pues se tiene una contradicción de términos.
+\item Si un punto se mueve de una posición dada en una dirección dada, hay solo una trayectoria, o series de posiciones a lo largo de las cuales puede pasar. (Tal trayectoria seria llamada un ``trayecto dirigido", y una serie continua de puntos ocupando tales posiciones ``linea recta").
+\item  Si la dirección de $A$ a $B$ es como la dirección de $B$ a $C$, entonces la dirección de $A$ a $C$ es la misma dirección.
+\item La dirección de $B$ a $A$	se dice que es opuesta a la de $A$ a $B$.
+\item La diferencia entre dos posiciones es llamada la distancia entre ellas. 
+\item La diferencia entre dos direcciones es llamada inclinación del una a la otra.
+
+\textbf{Distancia y postulado de la regla}
+
+\textbf{Axioma(Postulado de la regla)}
+
+Para cualquier par de puntos $P$ y $Q$ existe un número real $PQ$, llamado la distancia de $P$ a $Q$. Para cada linea $l$ hay una a una correspondencia ``uno a uno" de $l$ a $ \Re$  tales que si $P$ y $Q$ son puntos en la linea que corresponden a los números reales $x$ y $y$, respectivamente, entonces $PQ=|x-y|$
+
+\textbf{definición 1} Tres puntos $A$, $B$ y $C$ son colineales si existe una linea $l$ tal que $A$, $B$ y $C$ tal que todos se encuentre en $l$. En otro caso los puntos son no colineales. 
+
+
+\textbf{definición 2} Sean  $A$, $B$ y $C$ tres puntos distintos. El punto $C$ esta entre $A$ y $B$, representado como $A*C*B$, si $A$, $B$ y $C$ son colineales y $AC+CB=AB$
+
+
+
+
+
+
+\end{enumerate}
+
+
+
+\end{document}
